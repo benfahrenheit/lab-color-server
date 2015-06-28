@@ -1,0 +1,20 @@
+{
+	"name": "lab-color-server",
+	"description": "Dumb little app to serve up color/interval data for the pi lab",
+	"version": "0.0.1",
+	
+	"repository": {
+  		"type": "git",
+  		"url": "git://github.com/benfahrenheit/lab-color-server.git"
+	},
+	
+	"scripts": {
+		"start": "node app.js"
+	},
+	
+	"dependencies": {
+		"express": "*"
+	},
+	
+	"license": "MIT"
+}

@@ -1,0 +1,6 @@
+# node stuff
+node_modules
+
+# vs code stuff
+typings
+.settings
