@@ -13,7 +13,6 @@ var data = {
 };
 
 var chooseColor = function() {	
-	
 	// Don't show the same color twice to make it obvious that something
 	// is changing
 	var filteredColors = colors.filter(function(x) { return x !== data.color; });
@@ -30,7 +29,9 @@ app.get('/', function(req, res) {
 	res.json(data);
 });
 
-var server = app.listen(3000, function() {
+var port = process.env.PORT || 3000;
+
+var server = app.listen(port, function() {
 	console.log('Up and running at http://%s:%s',
 		server.address().address,
 		server.address().port);
