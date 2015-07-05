@@ -23,6 +23,7 @@ var chooseColor = function() {
 	console.log(data);
 };
 
+// Change the response we serve up every 10 seconds or so
 setInterval(chooseColor, 10000);
 
 app.get('/', function(req, res) {
