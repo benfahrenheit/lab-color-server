@@ -13,7 +13,6 @@
     "express": "*"
   },
   "devDependencies": {
-    "azure": "^0.10.6",
     "mocha": "*"
   },
   "license": "MIT"
