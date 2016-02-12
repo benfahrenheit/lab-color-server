@@ -2,6 +2,7 @@
   "name": "lab-color-server",
   "description": "Dumb little app to serve up color/interval data for the pi lab",
   "version": "0.0.1",
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/benfahrenheit/lab-color-server"
